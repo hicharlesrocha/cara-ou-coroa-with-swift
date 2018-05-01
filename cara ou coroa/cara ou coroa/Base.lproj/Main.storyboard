@@ -28,7 +28,7 @@
                                         <rect key="frame" x="0.0" y="174" width="321" height="74"/>
                                         <state key="normal" image="botao_jogar"/>
                                         <connections>
-                                            <segue destination="I9j-WX-Qim" kind="show" id="DOl-np-HSV"/>
+                                            <segue destination="I9j-WX-Qim" kind="show" identifier="jogarMoeda" id="DOl-np-HSV"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -47,11 +47,11 @@
             </objects>
             <point key="canvasLocation" x="1056.8" y="118.29085457271366"/>
         </scene>
-        <!--View Controller-->
+        <!--Detalhes View Controller-->
         <scene sceneID="a6B-R6-qCo">
             <objects>
-                <viewController id="I9j-WX-Qim" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="4fn-2M-AlT">
+                <viewController id="I9j-WX-Qim" customClass="DetalhesViewController" customModule="cara_ou_coroa" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4fn-2M-AlT" customClass="UIActionSheet">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -66,6 +66,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="0If-hy-oVF"/>
                     </view>
+                    <connections>
+                        <outlet property="moedaImagem" destination="STf-to-YK5" id="Ci8-1s-L6V"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UG7-T1-tOR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

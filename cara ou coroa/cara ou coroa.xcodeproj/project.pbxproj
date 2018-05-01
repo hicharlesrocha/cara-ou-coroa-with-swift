@@ -12,6 +12,7 @@
 		5F81BAED2098D455008F4363 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F81BAEB2098D455008F4363 /* Main.storyboard */; };
 		5F81BAEF2098D456008F4363 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F81BAEE2098D456008F4363 /* Assets.xcassets */; };
 		5F81BAF22098D456008F4363 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F81BAF02098D456008F4363 /* LaunchScreen.storyboard */; };
+		5F87E2872098D88900EA3E6C /* DetalhesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F87E2862098D88900EA3E6C /* DetalhesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5F81BAEE2098D456008F4363 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F81BAF12098D456008F4363 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F81BAF32098D456008F4363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F87E2862098D88900EA3E6C /* DetalhesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				5F81BAE72098D455008F4363 /* AppDelegate.swift */,
+				5F87E2862098D88900EA3E6C /* DetalhesViewController.swift */,
 				5F81BAE92098D455008F4363 /* ViewController.swift */,
 				5F81BAEB2098D455008F4363 /* Main.storyboard */,
 				5F81BAEE2098D456008F4363 /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 			files = (
 				5F81BAEA2098D455008F4363 /* ViewController.swift in Sources */,
 				5F81BAE82098D455008F4363 /* AppDelegate.swift in Sources */,
+				5F87E2872098D88900EA3E6C /* DetalhesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
